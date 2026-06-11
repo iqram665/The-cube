@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* স্ক্রিনশটের হুবহু ক্লিন হোয়াইট-গ্রে গ্রেডিয়েন্ট ব্যাকগ্রাউন্ড */
+    background: radial-gradient(circle, #ffffff 0%, #e0e0e0 100%);
+    font-family: 'Arial Black', sans-serif;
+}
+
+/* ০:০২ টাইমার ডিজাইন */
+#timer {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: #111111;
+    letter-spacing: 2px;
+    z-index: 10;
+    user-select: none;
+}
